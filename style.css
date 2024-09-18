@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+h1, h2 {
+    color: #333;
+}
+p {
+    color: #555;
+    line-height: 1.6;
+}
+ol {
+    margin: 10px 0;
+    padding: 0 20px;
+}
+li {
+    margin-bottom: 8px;
+}
+.section {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.image-area {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.image-area img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+}
+.mosaic {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+.mosaic img {
+    width: 100%;
+    border-radius: 8px;
+}
+marquee img {
+  height: 80px;
+  margin: 0 15px 0 15px;
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #888;
+}
+footer a {
+  text-decoration: none;
+  color:inherit;
+}
